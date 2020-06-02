@@ -20,13 +20,13 @@ class solution
 		Scanner s = new Scanner(System.in);
 		int no=s.nextInt();
 		int[] a = new int[no];
-		for(int i :a)
+		for(int i=0;i<a.length;i++)
 		{
-		    System.out.println("Enter element "+i+":");
+		    System.out.println("Enter element "+(i+1)+":");
 		    a[i]=s.nextInt();
 		}//input
 		int duplicate=0;
-		for(int j :a)
+		for(int j=0;j<a.length;j++)
 		{
 		    if((search(a,j)==1))
 		    {

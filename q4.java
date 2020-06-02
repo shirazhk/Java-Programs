@@ -1,3 +1,4 @@
+//program to count number of duplicate elements in an array
 import java.util.*;
 class solution
 {   
